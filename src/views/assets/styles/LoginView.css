@@ -1,0 +1,79 @@
+.login-container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.login{
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.login > h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.login > label{
+    align-self: flex-start;
+    font-size: 1rem;
+}
+
+.login > input{
+    width: 100%;
+    padding: 0.2rem 0.4rem;
+    outline: none;
+    color: #454343;
+    font-size: 1rem;
+    border: 1px solid #aea8a8;
+}
+
+.login > input:focus{
+    border: 1px solid #514d4d;
+
+}
+
+.login-btn{
+    background: #26b365;
+    border: 1px solid #0e4825;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.8rem;
+    color: #fff;
+    align-self: flex-start;
+    transition: all 0.2s ease-out;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background: #177e43;
+}
+
+.register-btn-container{
+    align-self: flex-end;
+    font-size: 0.8rem;
+}
+
+.register-btn{
+    border: none;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.8rem;
+    color: #26b365;
+    align-self: flex-start;
+    transition: all 0.2s ease-out;
+}
+
+.register-btn:hover{
+    cursor: pointer;
+    background: #ffffff;
+}
+.book_in_cart-btn{
+    border: none;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.8rem;
+    color: #26b365;
+    align-self: flex-start;
+    transition: all 0.2s ease-out;
+}

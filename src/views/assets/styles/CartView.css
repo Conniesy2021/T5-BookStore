@@ -1,0 +1,8 @@
+.book_in_cart-btn{
+    border: none;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.8rem;
+    color: #26b365;
+    align-self: flex-start;
+    transition: all 0.2s ease-out;
+}
